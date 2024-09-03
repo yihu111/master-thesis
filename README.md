@@ -28,32 +28,6 @@ The follow-up analysis of CAM image from day 11 and day 13 (25 images each) are 
 
 <img width="592" alt="cam_imaging" src="https://github.com/yihu111/master-thesis/assets/112397235/678610cb-8749-42aa-8cde-77ffd3c2dd84">
 
-# Code Structure
-```
-.
-├── 01_preprocessing
-│   ├── exploratory_data_analysis.ipynb
-│   └── indexing.ipynb
-│   └── train_test_split.ipynb
-├── 02_unet
-│   ├── unet_dataset.ipynb
-│   └── unet_model.ipynb
-│   └── unet_training.ipynb
-├── 03_sam_medsam
-│   ├── sam_dataset.ipynb
-│   └── sam_prompt_functions.ipynb
-│   └── sam_training.ipynb
-│   └── medsam_training.ipynb
-├── 04_evaluation
-│   ├── evaluation_utils.ipynb
-│   └── evaluation.ipynb
-├── 05_analysis
-│   ├── fine_tune_and_save_masks.ipynb
-│   └── quantification.ipynb
-├── gitattributes
-└── README.md
-```
-
 # Results and Evaluation
 The U-Net demonstrated to be the most suitable model based on the evaluation metrics whereas the Dice similarity coefficient is considered the main evaluation metric:
 
