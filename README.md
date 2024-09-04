@@ -59,16 +59,16 @@ The folders are structured as follows:
 .
 ├── 01_preprocessing
 │   ├── exploratory_data_analysis.ipynb
-│   └── indexing.ipynb
+│   |── indexing.ipynb
 │   └── train_test_split.ipynb
 ├── 02_unet
 │   ├── unet_dataset.ipynb
-│   └── unet_model.ipynb
+│   |── unet_model.ipynb
 │   └── unet_training.ipynb
 ├── 03_sam_medsam
 │   ├── sam_dataset.ipynb
-│   └── sam_prompt_functions.ipynb
-│   └── sam_training.ipynb
+│   |── sam_prompt_functions.ipynb
+│   |── sam_training.ipynb
 │   └── medsam_training.ipynb
 ├── 04_evaluation
 │   ├── evaluation_utils.ipynb
